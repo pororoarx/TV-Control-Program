@@ -17,6 +17,8 @@ class TV:
         self.on = False
 
     # Get current channel 
+    def get_channel(self):
+        return self.channel
 
     # Channel control
 
