@@ -10,7 +10,11 @@ class TV:
 
     # On and Off control
     # on control
+    def turn_on(self):
+        self.on = True
     # off control
+    def turn_off(self):
+        self.on = False
 
     # Get current channel 
 
