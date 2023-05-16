@@ -50,9 +50,13 @@ class TV:
             print("Invalid volume.")
 
     # Volume up control
-
+    def volume_up(self):
+        self.volume = (self.volume % 7) + 1
+        
     # Volume down control
-
+    def volume_down(self):
+        self.volume = (self.volume - 1) % 7 + 1
+        
 # Create object for TV1
 # Print channel and volume of TV1
 
