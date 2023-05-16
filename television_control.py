@@ -1,7 +1,12 @@
 # Start 
 
 # Create a class named TV
+class TV:
     # Constructor
+    def __init__(self, channel = 1, volume = 1, on = False):
+        self.channel = channel
+        self.volume = volume
+        self.on = on
 
     # On and Off control
     # on control
