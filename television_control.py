@@ -30,8 +30,11 @@ class TV:
             print("Invalid channel.")
 
     # Channel up control
-
+    def channel_up(self):
+        self.channel = (self.channel) % 120 + 1
     # Channel down control
+    def channel_down(self):
+        self.channel = (self.channel - 2) % 120 + 1
 
     # Get current volume
 
