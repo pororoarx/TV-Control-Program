@@ -37,6 +37,8 @@ class TV:
         self.channel = (self.channel - 2) % 120 + 1
 
     # Get current volume
+    def get_volume(self):
+        return self.volume
 
     # Volume control
 
