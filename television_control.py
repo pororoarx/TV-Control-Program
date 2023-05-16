@@ -56,9 +56,11 @@ class TV:
     # Volume down control
     def volume_down(self):
         self.volume = (self.volume - 1) % 7 + 1
-        
+
 # Create object for TV1
+TV1 = TV(channel = 30, volume = 3)
 # Print channel and volume of TV1
+print("tv1's channel is", TV1.get_channel(), "and volume is", TV1.get_volume())
 
 # Create object for TV2
 # Print channel and volume of TV2
