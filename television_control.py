@@ -60,11 +60,11 @@ class TV:
 # Create object for TV1
 TV1 = TV(channel = 30, volume = 3)
 # Print channel and volume of TV1
-print("tv1's channel is", TV1.get_channel(), "and volume is", TV1.get_volume())
+print("tv1's channel is", TV1.get_channel(), "and volume level is", TV1.get_volume())
 
 # Create object for TV2
 TV2 = TV(channel = 3, volume = 2)
 # Print channel and volume of TV2
-print("tv2's channel is", TV2.get_channel(), "and volume is", TV2.get_volume())
+print("tv2's channel is", TV2.get_channel(), "and volume level is", TV2.get_volume())
 
 
