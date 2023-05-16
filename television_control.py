@@ -41,6 +41,13 @@ class TV:
         return self.volume
 
     # Volume control
+    def set_volume(self, degree):
+        try:
+            if (degree > 7 or degree < 1):
+                raise ValueError
+            self.volume = degree
+        except:
+            print("Invalid volume.")
 
     # Volume up control
 
