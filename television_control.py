@@ -21,6 +21,13 @@ class TV:
         return self.channel
 
     # Channel control
+    def set_channel(self, number):
+        try:
+          if (number > 120 or number < 1):
+              raise ValueError
+          self.channel = number
+        except ValueError:
+            print("Invalid channel.")
 
     # Channel up control
 
