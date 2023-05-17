@@ -60,11 +60,22 @@ class TV:
 # Create object for TV1
 television_1 = TV(channel = 30, volume = 3)
 # Print channel and volume of TV1
-print("tv1's channel is", television_1.get_channel(), "and volume level is", television_1.get_volume())
+print("\n✿ ⋆｡ ﾟ ☁︎｡⋆｡ ﾟ ☾ ﾟ ｡⋆✿ ⋆｡ ﾟ ☁︎｡⋆｡ ﾟ ☾ ﾟ ｡⋆✿ ⋆｡ ﾟ ☁︎｡⋆｡ ﾟ ☾\n")
+print("\033[93;1m\nTelevision 1\n\033[0m")
+print("\033[38;5;93m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m")
+print("\033[38;5;207m║┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓║\033[0m")
+print(f"\033[38;5;218m     tv1's channel is{television_1.get_channel():^5} and volume level is{television_1.get_volume():^5}   \033[0m")
+print("\033[38;5;207m║┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛║")
+print("\033[38;5;93m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m")
 
 # Create object for TV2
 television_2 = TV(channel = 3, volume = 2)
 # Print channel and volume of TV2
-print("tv2's channel is", television_2.get_channel(), "and volume level is", television_2.get_volume())
-
+print("\033[93;1m\nTelevision 2\n\033[0m")
+print("\033[38;5;117m┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓\033[0m")
+print("\033[38;5;226m║┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓║\033[0m")
+print(f"\033[38;5;156m     tv2's channel is{television_2.get_channel():^5} and volume level is{television_2.get_volume():^5}   \033[0m")
+print("\033[38;5;226m║┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛║")
+print("\033[38;5;117m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m")
+print("\n✿ ⋆｡ ﾟ ☁︎｡⋆｡ ﾟ ☾ ﾟ ｡⋆✿ ⋆｡ ﾟ ☁︎｡⋆｡ ﾟ ☾ ﾟ ｡⋆✿ ⋆｡ ﾟ ☁︎｡⋆｡ ﾟ ☾\n")
 
